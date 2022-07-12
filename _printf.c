@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _printf - formatted output conversion and print data.
  * @format: input string.
