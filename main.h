@@ -53,9 +53,9 @@ int ev_print_func(const char *s, int index);
 unsigned int handl_buf(char *buf, char c, unsigned int ibuf);
 int print_buf(char *buf, unsigned int nbuf);
 char *fill_binary_array(char *binary, long int int_in, int isneg, int limit);
-char *fill_oct_array(char *bnr, char *oct);
-char *fill_long_oct_array(char *bnr, char *oct);
-char *fill_short_oct_array(char *bnr, char *oct);
-char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
+char *fill_oct_array(const char *bnr, char *oct);
+char *fill_long_oct_array(const char *bnr, char *oct);
+char *fill_short_oct_array(const char *bnr, char *oct);
+char *fill_hex_array(const char *bnr, char *hex, int isupp, int limit);
 
 #endif

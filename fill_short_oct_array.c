@@ -7,7 +7,7 @@
  *
  * Return: binary array.
  */
-char *fill_short_oct_array(char *bnr, char *oct)
+char *fill_short_oct_array(const char *bnr, char *oct)
 {
 int op, i, j, ioct, limit;
 
